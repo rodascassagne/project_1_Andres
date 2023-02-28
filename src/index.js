@@ -46,5 +46,6 @@ mongoose
   .then(() => console.log("Connected to MongoDB Atlas"))
   .catch((error) => console.error(error));
 
+  
 // server listening
 app.listen(port, () => console.log("Server listening to", port));
