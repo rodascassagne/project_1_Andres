@@ -35,7 +35,7 @@ app.use("/api-doc", swaggerUI.serve, swaggerUI.setup(swaggerJSDoc(swaggerSpec)))
 
 // routes
 app.get("/", (req, res) => {
-  res.send("Welcome to my API");
+  res.send("Amanda Rodas");
 });
 
 // mongodb connection
